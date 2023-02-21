@@ -29,7 +29,7 @@ filetype plugin indent on    " required
 
 syntax on
 set number
-set cindent
+" set cindent
 set expandtab
 set tabstop=4
 set shiftwidth=4
@@ -39,10 +39,11 @@ let &termencoding=&encoding
 set fileencodings=utf-8,gbk
 set showmode
 set mouse=a
-set cursorline
-set linebreak
+" set cursorline
+" set linebreak
 set ruler
-set smartindent
+" set smartindent
 set backspace=2
+set completeopt-=preview
 
 let delimitMate_expand_cr=1
