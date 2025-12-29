@@ -101,10 +101,6 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias vimconfig="vim ~/.vimrc"
 
-export hostip=$(cat /etc/resolv.conf |grep -oP '(?<=nameserver\ ).*')
-export https_proxy="http://${hostip}:7890"
-export http_proxy="http://${hostip}:7890"
-
 export PATH=$PATH:/home/xuziao/.local/bin
 
-eval $(thefuck --alias)
+eval $(thefuck --alias fuck)
